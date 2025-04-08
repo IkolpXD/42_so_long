@@ -77,13 +77,9 @@ void	handle_interations(t_data *data, int new_x, int new_y)
 
 void	display_moves(t_data *data)
 {
-	int		width;
-	int		height;
 	char	*moves_str;
 	char	*final_str;
 
-	width = 0;
-	height = 0;
 	moves_str = ft_itoa(data->moves);
 	if (!moves_str)
 		return ;
